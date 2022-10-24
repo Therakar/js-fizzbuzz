@@ -8,5 +8,9 @@ for (let i = 1; i <= 100; i++){
     if (i % 3 == 0){
         console.log(`fizz`);
     } 
+    // se un numero è multiplo di 5, quindi se lo divido per 5 mi da resto 0, nella console verrà visulaizzato 'buzz'. 
+    else if (i % 5 == 0){
+        console.log(`buzz`);
+    }
 
 }
